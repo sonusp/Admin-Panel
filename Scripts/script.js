@@ -5,12 +5,12 @@
      var password = document.getElementById("password").value;
      if ( username == "admin" && password == "admin")
         {
-          alert("Login successful !");
+          alert(" Login successful !");
           window.location="./Dashboard/index.html"; // Redirecting to other page.
           return false;
         }
     else {
-           alert("Incorect Username or Password !");
+           alert(" Incorect Username or Password !");
          }
     }
     
