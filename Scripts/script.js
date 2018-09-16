@@ -6,7 +6,7 @@
      if ( username == "admin" && password == "admin")
         {
           alert(" Login successful !");
-          window.location="./Dashboard/index.html"; // Redirecting to other page.
+          window.location.pathname="./Dashboard/index.html"; // Redirecting to other page.
           return false;
         }
     else {
